@@ -1,6 +1,6 @@
-## PesapalJS (UNMAINTAINED)
+## ch-pesapaljs (MAINTAINED)
 
-[![NPM](https://nodei.co/npm/pesapaljs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.org/package/pesapaljs)
+[![NPM](https://nodei.co/npm/pesapaljs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.org/package/ch-pesapaljs)
 
 ### Goal
 
@@ -25,20 +25,20 @@ to customize the payment user interface.
 ###### Install
 
 ```shell
-$ npm install pesapaljs
+$ npm i ch-pesapaljs
 ```
 
 ###### Setup
 ```javascript
 
-var PesaPal = require('pesapaljs').init({
+var PesaPal = require('ch-pesapaljs').init({
     key: CONSUMER_KEY,
     secret: CONSUMER_SECRET,
     debug: true // false in production!
 });
 
 ```
-When the `debug` option is set, `pesapaljs` will use the `demo.pesapal.com/*` endpoints.
+When the `debug` option is set, `ch-pesapaljs` will use the `demo.pesapal.com/*` endpoints.
     
 ###### Listen for payment notifications
 ```javascript
